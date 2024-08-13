@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/flaticon.png" type="icon/x-icon">
+
+    <link rel="stylesheet" href="css/stylecontent.css">
+    <link rel="stylesheet" href="css/styleresults.css">
+
+    <script src="js/script.js" defer></script>
+
+    <title>Weather APP by Pedro Gustavo</title>
+</head>
+<body>
+    <section id="content">
+        <div id="iconArea">
+            <img id="imgIconArea" src="img/flaticon.png" width="70px">
+        </div>
+        <div id="top">
+            <input type="text" id="cityName" placeholder="Type the name of your city" required />
+
+            <div id="divBtn">
+                <button id="buttonSearch">Search</button>
+            </div>
+        </div>
+            <div id="inputsResults" class="hiddenContent">
+                <div class="column">
+                    <div class="input-group">
+                        <label class="labels " for="cityNameResult">City</label>
+                        <input type="text" name="cityNameResult" id="inputCityName" class="inputs " readonly>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label class="labels " for="country">Country</label>
+                        <input type="text" name="country" id="inputCountry" class="inputs " readonly>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label class="labels " for="temp">Temperature</label>
+                        <input type="text" name="temp" id="inputTemp" class="inputs " readonly>
+                    </div>
+                </div>
+                    
+                <div class="column">
+                    <div class="input-group">
+                        <label class="labels labels2 " for="feelsLike">Feels like</label>
+                        <input type="text" name="feelsLike" id="inputFeelsLike" class="inputs inputs2 " readonly>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label class="labels labels2 " for="humidity">Humidity</label>
+                        <input type="text" name="humidity" id="inputHumidity" class="inputs inputs2 " readonly>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label class="labels labels2 " for="windV">Wind Velocity (km/h)</label>
+                        <input type="text" name="windV" id="inputWindV" class="inputs inputs2 " readonly>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>

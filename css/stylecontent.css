@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+#titleIconArea{
+    color: white;
+    font-size: 20px;
+    align-items: start;
+    justify-content: start;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+#imgIconArea{
+    margin-left: 10px;
+}
+#content{
+    border-radius: 10px;
+    width: 800px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 55));
+}
+#content{
+    margin-top: 80px;
+}
+#top{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+#cityName{
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+#buttonSearch{
+    width: 140px;
+    height: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: courier;
+    background-color: rgb(59, 196, 255);
+    border-radius: 10px;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 17px;
+}
+#buttonSearch:hover{
+    font-size: 17px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 2px solid rgb(59, 196, 255);
+    border-radius: 10px;
+    color: rgb(59, 196, 255);
+}
